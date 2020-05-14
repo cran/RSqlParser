@@ -1,0 +1,35 @@
+---
+title: "Introduction to RSqlParser"
+author: "Subhasree Bose"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+RSqlParser is a non-validating sql paser. It can be used to get various components of sql statements.
+
+```{r setup}
+library(RSqlParser)
+```
+## Methods
+
+There are currently 4 methods in the package:
+```
+get_all_bind_variables:	Get the bind variables in sql.
+get_all_select_cols_with_alias:	Get the names of the selected columns in the sql
+get_all_subqueries:	Get the subqueries in sql.
+get_all_tables_with_alias:	Get the names of the tables with alias present in the sql
+
+```
+
+## Note
+```
+This is a non-validating module. It expects syntactically correct sql statements.
+
+Currently, it supports only SELECT statements.
+
+get_all_subqueries does not return nested sub queries. To retreive nested subquery, the subquery of the main select query needs to be passed in this method again.
+
+```

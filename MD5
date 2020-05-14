@@ -1,0 +1,14 @@
+2b4a77b9d418ecb2715bb0c5fdabd13f *DESCRIPTION
+787a3926ee8dc9d4a58474fda920e746 *NAMESPACE
+5328f1aa2e63fbfa6ab3863e98a0c750 *R/parser.R
+ec194e9a17f1c37fd422641921c9fea2 *build/vignette.rds
+f2669e371229bb112175796d8cad1c1d *inst/doc/introduction.R
+3def33662ee97fa2678f25f862ff0186 *inst/doc/introduction.Rmd
+86aace83ea5bf96d51b2bf5fd767f318 *inst/doc/introduction.html
+e642dd1df74918cca5fa2f3ab269de52 *man/get_all_bind_variables.Rd
+fd213cce607489b9e20e7a7f3283ffd6 *man/get_all_select_cols_with_alias.Rd
+6ef2f47a7a775dbc6188d4f07c95c69a *man/get_all_subqueries.Rd
+1a8dc2fd2af5504bc911ef68f5aac982 *man/get_all_tables_with_alias.Rd
+9c759de2b1b466123c7fabd6e31e8380 *tests/testthat.R
+88195407785671ac5c9f0bef669b5e2d *tests/testthat/testing.R
+3def33662ee97fa2678f25f862ff0186 *vignettes/introduction.Rmd
